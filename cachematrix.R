@@ -39,7 +39,7 @@ list(setMatrix=setMatrix, getMatrix=getMatrix, cacheInverse=cacheInverse, getInv
 }
 
 
-# The following function calculates the inverse of a "special" matrix created #              #  with makeCacheMatrix
+# The following function calculates the inverse of a "special" matrix created with makeCacheMatrix
 
 cacheSolve<-function(y, ...) {
 # get the cached value
